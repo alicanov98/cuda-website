@@ -1,0 +1,383 @@
+@import "./mixins";
+
+//* --------------------------- START HOME SECTION --------------------------- */
+.home {
+  background-color: #87509c;
+  width: 100%;
+  height: 596px;
+  padding: 145px 0;
+  .container {
+    .row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 64px;
+        color: #f7f3ea;
+        margin-bottom: 25px;
+        padding-top: 82px;
+      }
+      .homeBtn {
+        @include primaryBtn(#eb7d4b, #ffffff);
+      }
+    }
+  }
+}
+//* ---------------------------- END HOME SECTION ---------------------------- */
+//* ------------------------- START SERVICES SECTION ------------------------- */
+.services {
+  background-color: #17c2a4;
+  padding-top: 106px;
+  padding-bottom: 122px;
+  .container {
+    .row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+        color: #ffffff;
+        margin-bottom: 2px;
+      }
+      .titleContent {
+        margin-top: 19px;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+      }
+      .cardBox {
+        width: 100%;
+        display: flex;
+        margin-top: 71px;
+        gap: 10px;
+        .card {
+          width: 25%;
+          transition: 0.3s ease;
+          padding: 10px;
+          border-radius: 15px;
+          cursor: pointer;
+          h3 {
+            margin-top: 59px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 37px;
+            color: #ffffff;
+          }
+          p {
+            margin-top: 13px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+          }
+          &:hover {
+            background-color: #1b9381;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+//* ------------------------- END SERVICES SECTION ------------------------- */
+//* --------------------------- START TEEM SECTION --------------------------- */
+.team {
+  background: #e7f1f8;
+  padding-top: 107px;
+  padding-bottom: 126px;
+  .container {
+    .row {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      .title {
+        font-weight: 700;
+        font-size: 40.635px;
+        line-height: 62px;
+        color: #3c4761;
+        margin-bottom: 2px;
+      }
+      .titleContent {
+        margin-top: 20px;
+        color: #3c4761;
+        font-size: 18.2857px;
+        line-height: 28px;
+      }
+      .cardBox {
+        width: 100%;
+        margin-top: 74px;
+        display: flex;
+        gap: 10px;
+        .card {
+          width: 25%;
+          transition: 0.3s ease;
+          padding: 10px;
+          border-radius: 15px;
+          cursor: pointer;
+          .cardName {
+            margin-top: 34px;
+            color: #27283d;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 37px;
+          }
+          .cardCont {
+            line-height: 24px;
+            color: #30bae7;
+            margin-bottom: 9px;
+          }
+          .cardText {
+            font-weight: 300;
+            color: #3c4761;
+            line-height: 24px;
+          }
+          .socialList {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 37px;
+            .socialItem {
+              width: 32px;
+              height: 32px;
+              background: #bdd1df;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 50%;
+              transition: 0.9s ease;
+              a {
+                color: #ffffff;
+                i {
+                  transition: 0.5s ease;
+                }
+              }
+              &:hover {
+                background-color: #27283d;
+                a {
+                  i {
+                    transform: rotateY(360deg);
+                  }
+                }
+              }
+            }
+          }
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+}
+//* --------------------------- END TEEM SECTION --------------------------- */
+//* ------------------------- START PORTFOLIO SECTION ------------------------ */
+.portfolio {
+  background-color: #ffdd99;
+  padding: 108px 0;
+  .container {
+    .row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+        color: #393939;
+        margin-bottom: 2px;
+      }
+      .titleContent {
+        margin-top: 19px;
+        font-size: 18px;
+        line-height: 27px;
+      }
+      .cardBox {
+        margin-top: 100px;
+        display: flex;
+        gap: 20px;
+        .cardRow {
+          .card {
+            margin-bottom: 57px;
+            .cardTitle {
+              margin-top: 27px;
+              font-size: 18px;
+              line-height: 27px;
+              color: #393939;
+            }
+          }
+        }
+      }
+      .homeBtn {
+        margin-top: 74px;
+        @include primaryBtn(#17c2a4, #ffffff);
+      }
+    }
+  }
+}
+//* ------------------------- END PORTFOLIO SECTION ------------------------ */
+//* --------------------------- START ABOUT SECTION -------------------------- */
+.about {
+  background-color: #d74680;
+  padding: 107px 0;
+  .container {
+    .row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .title {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+      }
+      .titleContent {
+        margin-top: 19px;
+        margin-bottom: 83px;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+      }
+      .cardBox {
+        width: 100%;
+        display: flex;
+        gap: 86px;
+        .cardRow {
+          .card {
+            display: flex;
+            padding-bottom: 100px;
+            img {
+              width: 96px;
+              height: 96px;
+              margin-right: 48px;
+            }
+            .cardContent {
+              text-align: start;
+              p {
+                font-style: italic;
+                font-weight: 200;
+                font-size: 21px;
+                line-height: 32px;
+                color: #ffffff;
+                margin-bottom: 32px;
+              }
+              .userName {
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 37px;
+              }
+              span {
+                font-family: "Roboto";
+                color: #ffdd99;
+                font-size: 18px;
+                line-height: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//* --------------------------- END ABOUT SECTION -------------------------- */
+//* --------------------------- START CONTACT SECTION -------------------------- */
+.contact {
+  background-color: #3c5499;
+  padding-top: 107px;
+  padding-bottom: 115px;
+  .container {
+    .row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+        color: #ffffff;
+        margin-bottom: 2px;
+      }
+      .contactInfo {
+        display: flex;
+        gap: 10px;
+        .titleContent {
+          font-size: 18px;
+          line-height: 27px;
+          color: #ffffff;
+          margin-top: 19px;
+          transition: 0.3s ease;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+      .form {
+        width: 100%;
+        margin-top: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .formInp {
+          width: 100%;
+          display: flex;
+          padding: 14px 23px 13px;
+          gap: 30px;
+          align-items: center;
+          justify-content: center;
+          input {
+            padding: 14px 23px 13px;
+            width: 414px;
+            height: 56px;
+            background: #273a71;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            font-size: 18px;
+            color: #fff;
+            &::placeholder {
+              color: #ffffff;
+            }
+          }
+        }
+        .textBox {
+          width: 860px;
+          height: 200px;
+          position: relative;
+          img {
+            position: absolute;
+            bottom: -2px;
+            right: 8px;
+          }
+          textarea {
+            width: 100%;
+            height: 100%;
+            margin-top: 10px;
+            background: #273a71;
+            border: none;
+            border-radius: 5px;
+            padding: 14px 23px 13px;
+            outline: none;
+            font-size: 18px;
+            color: #fff;
+            resize: none;
+            &::placeholder {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .homeBtn {
+        margin-top: 59px;
+        @include primaryBtn(#17c2a4, #ffffff);
+      }
+    }
+  }
+}
+//* --------------------------- END CONTACT SECTION -------------------------- */

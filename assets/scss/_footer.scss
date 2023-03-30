@@ -1,0 +1,34 @@
+.footer {
+  background-color: #344b8e;
+  .container {
+    .row {
+      text-align: center;
+      align-items: center;
+      .socialList {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 59px;
+        padding-top: 41px;
+        padding-bottom: 34px;
+        .socialItem {
+          a {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 37px;
+            color: #fff;
+            transition: .3s ease;
+            &:hover{
+                color: #30BAE7;
+            }
+            &:active{
+                color: #30BAE7;
+            }
+          }
+        }
+      }
+    }
+  }
+}

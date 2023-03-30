@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  padding-top: 57px;
+  position: absolute;
+  .container {
+    .row {
+      justify-content: space-between;
+      align-items: center;
+      .navBar {
+        .navList {
+          width: 100%;
+          display: flex;
+          .navItem {
+            line-height: 20px;
+            text-transform: uppercase;
+            margin-right: 10px;
+            a {
+              color: #ffffff;
+              padding: 5px 15px;
+              transition: 0.4s ease;
+              border-radius: 3px;
+              &:hover {
+                background-color: #442753;
+              }
+              &.active {
+                background-color: #442753;
+                &:hover {
+                  background-color: transparent;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

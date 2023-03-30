@@ -1,0 +1,34 @@
+@mixin primaryBtn($bgClr, $fontClr) {
+  width: 293px;
+  height: 70px;
+  background-color: $bgClr;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    a {
+      transform: scale(1.2);
+    }
+  }
+  a {
+    color: $fontClr;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    transition: 0.3s ease;
+  }
+  span {
+    display: inline-block;
+    width: 293px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+}
