@@ -32,3 +32,19 @@
     }
   }
 }
+@media(max-width:768px){
+  .footer {
+    .container {
+      .row {
+        .socialList {
+          gap: 25px;
+          .socialItem {
+            a {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

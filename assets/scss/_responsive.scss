@@ -1,0 +1,172 @@
+//* ---------------------------  MEDIA(768px) --------------------------- */
+@media(max-width:768px){
+    .home {
+      .container {
+        .row {
+          .title {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .services {
+        .container {
+          .row {
+            .title {
+              font-size: 30px;
+            }
+            .titleContent {
+              font-size: 15px;
+            }
+            .cardBox {
+              .card {
+                width: 25%;
+                img{
+                  width: 60px;
+                  height: 70px;
+                }
+                h3 {
+                  margin-top: 30px;
+                  font-size: 12px;
+                }
+                p {
+                  margin-top: 8px;
+                  font-size: 9px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .team {
+        .container {
+          .row {
+            .title {
+              font-size: 30px;
+            }
+            .titleContent {
+              margin-top: 15px;
+            }
+            .cardBox {
+              margin-top: 50px;
+              .card {
+                img{
+                  width: 80px;
+                  height: 80px;
+                }
+                .cardName {
+                  font-size: 12px;
+                }
+                .cardCont {
+                  font-size:12px ;
+                }
+                .cardText {
+                  font-size: 9px;
+                }
+                .socialList {
+                  .socialItem {
+                    width: 20px;
+                    height: 20px;
+                    a{
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      i{
+                        font-size: 12px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .portfolio {
+        .container {
+          .row {
+            .title {
+              font-size: 30px;
+            }
+            .titleContent {
+              font-size: 15px;
+            }
+            .cardBox {
+              gap: 10px;
+              .cardRow {
+                .card {
+                  img{
+                    max-width: 300px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .about {
+        .container {
+          .row {
+            .title {
+              font-size: 30px;
+            }
+            .titleContent {
+              font-size: 15px;
+            }
+            .cardBox {
+              gap:40px;
+              .cardRow {
+                .card {
+                  img {
+                    width: 55px;
+                    height: 55px;
+                    margin-right: 30px;
+                  }
+                  .cardContent {
+                    p {
+                      font-size: 10px;
+                    }
+                    .userName {
+                      font-size: 15px;
+                    }
+                    span {
+                      font-size: 10px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .contact {
+        .container {
+          .row {
+            .title {
+              font-size: 30px;
+            }
+            .contactInfo {
+              .titleContent {
+                font-size: 12px;
+              }
+            }
+            .form {
+              .formInp {
+                width: 125%;
+                input {
+                  height: 56px;
+                  font-size: 15px;
+                }
+              }
+              .textBox {
+                width: 660px;
+                height: 200px;
+                textarea{
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+  }  
