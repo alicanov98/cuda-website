@@ -564,60 +564,19 @@
   .home .container .row .title {
     font-size: 24px;
   }
-  .services .container .row .title {
-    font-size: 30px;
-  }
-  .services .container .row .titleContent {
-    font-size: 15px;
+  .services .container .row .cardBox {
+    width: 100%;
+    flex-wrap: wrap;
   }
   .services .container .row .cardBox .card {
-    width: 25%;
-  }
-  .services .container .row .cardBox .card img {
-    width: 60px;
-    height: 70px;
-  }
-  .services .container .row .cardBox .card h3 {
-    margin-top: 30px;
-    font-size: 12px;
-  }
-  .services .container .row .cardBox .card p {
-    margin-top: 8px;
-    font-size: 9px;
-  }
-  .team .container .row .title {
-    font-size: 30px;
-  }
-  .team .container .row .titleContent {
-    margin-top: 15px;
+    width: 49%;
   }
   .team .container .row .cardBox {
-    margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
   }
-  .team .container .row .cardBox .card img {
-    width: 80px;
-    height: 80px;
-  }
-  .team .container .row .cardBox .card .cardName {
-    font-size: 12px;
-  }
-  .team .container .row .cardBox .card .cardCont {
-    font-size: 12px;
-  }
-  .team .container .row .cardBox .card .cardText {
-    font-size: 9px;
-  }
-  .team .container .row .cardBox .card .socialList .socialItem {
-    width: 20px;
-    height: 20px;
-  }
-  .team .container .row .cardBox .card .socialList .socialItem a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .team .container .row .cardBox .card .socialList .socialItem a i {
-    font-size: 12px;
+  .team .container .row .cardBox .card {
+    width: 49%;
   }
   .portfolio .container .row .title {
     font-size: 30px;

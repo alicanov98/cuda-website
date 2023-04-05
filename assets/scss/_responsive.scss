@@ -10,78 +10,31 @@
       }
     }
     .services {
-        .container {
-          .row {
-            .title {
-              font-size: 30px;
-            }
-            .titleContent {
-              font-size: 15px;
-            }
-            .cardBox {
-              .card {
-                width: 25%;
-                img{
-                  width: 60px;
-                  height: 70px;
-                }
-                h3 {
-                  margin-top: 30px;
-                  font-size: 12px;
-                }
-                p {
-                  margin-top: 8px;
-                  font-size: 9px;
-                }
-              }
+      .container {
+        .row {
+          .cardBox {
+            width: 100%;
+            flex-wrap: wrap;
+            .card {
+              width: 49%;
             }
           }
         }
       }
-      .team {
-        .container {
-          .row {
-            .title {
-              font-size: 30px;
-            }
-            .titleContent {
-              margin-top: 15px;
-            }
-            .cardBox {
-              margin-top: 50px;
-              .card {
-                img{
-                  width: 80px;
-                  height: 80px;
-                }
-                .cardName {
-                  font-size: 12px;
-                }
-                .cardCont {
-                  font-size:12px ;
-                }
-                .cardText {
-                  font-size: 9px;
-                }
-                .socialList {
-                  .socialItem {
-                    width: 20px;
-                    height: 20px;
-                    a{
-                      display: flex;
-                      justify-content: center;
-                      align-items: center;
-                      i{
-                        font-size: 12px;
-                      }
-                    }
-                  }
-                }
-              }
+    }
+    .team {
+      .container {
+        .row {
+          .cardBox {
+            width: 100%;
+            flex-wrap: wrap;
+            .card {
+              width: 49%;
             }
           }
         }
       }
+    }
       .portfolio {
         .container {
           .row {
